@@ -1,0 +1,223 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <title>Basic Usage</title>
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/normalize.css" />
+  <link rel="stylesheet" href="/css/grid.css" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/pygments.css" />
+  <link rel="icon" type="image/x-icon" href="/favicon.png" />
+  <script src="/js/modernizr-2.5.3.min.js"></script>
+</head>
+
+
+<body>
+  <header>
+  <div class="content">
+    <div class="grid3 first">
+      <h1>
+        <a href="/">
+          <span>Jekyll</span>
+          <img src="/img/logo-2x.png" width="249px" height="115px" alt="">
+        </a>
+      </h1>
+    </div>
+    <nav class="grid6">
+      <ul>
+        <li >
+          <a href="/">Overview</a>
+        </li>
+        <li class="current">
+          <a href="/docs">Documentation</a>
+        </li>
+        <li class="">
+          <a href="https://github.com/mojombo/jekyll">View on GitHub</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="clear"></div>
+  </div>
+</header>
+
+
+    <section class="docs">
+    <div class="content">
+
+      <div class="grid10 first">
+        <article>
+          <h1>Basic Usage</h1>
+          <p>The Jekyll gem makes a <code>jekyll</code> executable available to you in your Terminal window. You can use this command in a number of ways:</p>
+<div class='highlight'><pre><code class='bash'>jekyll build
+<span class='c'>#=&gt; The current folder will get generated into ./_site</span>
+jekyll build --destination &lt;destination&gt;
+<span class='c'>#=&gt; The current folder will get generated into &lt;destination&gt;</span>
+jekyll build --source &lt;<span class='nb'>source</span>&gt; --destination &lt;destination&gt;
+<span class='c'>#=&gt; The &lt;source&gt; folder will get generated into &lt;destination&gt;</span>
+jekyll build --watch
+<span class='c'>#=&gt; The current folder will get generated into ./_site,</span>
+<span class='c'>#       and watch for changes and regenerate automatically.</span>
+</code></pre></div>
+<p>Jekyll also comes with a built-in development server that will allow you to preview what the generated site will look like in your browser locally.</p>
+<div class='highlight'><pre><code class='bash'>jekyll serve
+<span class='c'>#=&gt; A development server will run at http://localhost:4000/</span>
+jekyll serve --watch
+<span class='c'>#=&gt; As above, but watch for changes and regenerate automatically too.</span>
+</code></pre></div>
+<p>These are just some of the many <a href='../configuration'>configuration options</a> available. All configuration options can either be specified as flags on the command line, or alternatively (and more commonly) they can be specified in a <code>_config.yml</code> file at the root of the source directory. Jekyll will automatically configuration options from this file when run, so placing the following one line in the configuration file will mean that running <code>jekyll build</code> or <code>jekyll serve</code> would be equivalent to running <code>jekyll [build|serve] --source _source --destination _deploy</code>:</p>
+<div class='highlight'><pre><code class='yaml'><span class='l-Scalar-Plain'>source</span><span class='p-Indicator'>:</span>      <span class='l-Scalar-Plain'>_source</span>
+<span class='l-Scalar-Plain'>destination</span><span class='p-Indicator'>:</span> <span class='l-Scalar-Plain'>_deploy</span>
+</code></pre></div>
+<p>For more about the possible configuration options, see the <a href='../configuration'>configuration</a> page.</p>
+          <div class="section-nav">
+  <div class="left align-right">
+    
+      <a href="/docs/installation" class="prev">
+        Back
+      </a>
+    
+  </div>
+  <div class="right align-left">
+    
+      <a href="/docs/structure" class="next">
+        Next
+      </a>
+    
+  </div>
+  <div class="clear"></div>
+</div>
+
+
+        </article>
+      </div>
+
+      <div class="grid2">
+  <aside>
+    <h4>Getting Started</h4>
+    <ul>
+      <li class="">
+        <a href="/docs/home">Welcome</a>
+      </li>
+      <li class="">
+        <a href="/docs/installation">Installation</a>
+      </li>
+      <li class="current">
+        <a href="/docs/usage">Basic Usage</a>
+      </li>
+      <li class="">
+        <a href="/docs/structure">Directory structure</a>
+      </li>
+      <li class="">
+        <a href="/docs/configuration">Configuration</a>
+      </li>
+    </ul>
+    <h4>Your Content</h4>
+    <ul>
+      <li class="">
+        <a href="/docs/frontmatter">Front-matter</a>
+      </li>
+      <li class="">
+        <a href="/docs/posts">Writing posts</a>
+      </li>
+      <li class="">
+        <a href="/docs/pages">Creating pages</a>
+      </li>
+      <li class="">
+        <a href="/docs/variables">Variables</a>
+      </li>
+      <li class="">
+        <a href="/docs/migrations">Blog migrations</a>
+      </li>
+    </ul>
+    <h4>Customization</h4>
+    <ul>
+      <li class="">
+        <a href="/docs/templates">Templates</a>
+      </li>
+      <li class="">
+        <a href="/docs/permalinks">Permalinks</a>
+      </li>
+      <li class="">
+        <a href="/docs/pagination">Pagination</a>
+      </li>
+      <li class="">
+        <a href="/docs/plugins">Plugins</a>
+      </li>
+      <li class="">
+        <a href="/docs/extras">Extras</a>
+      </li>
+    </ul>
+    <h4>Deployment</h4>
+    <ul>
+      <li class="">
+        <a href="/docs/github-pages">GitHub Pages</a>
+      </li>
+      <li class="">
+        <a href="/docs/deployment-methods">Other methods</a>
+      </li>
+    </ul>
+    <h4>Miscellaneous</h4>
+    <ul>
+      <li class="">
+        <a href="/docs/contributing">Contributing</a>
+      </li>
+      <li class="">
+        <a href="/docs/troubleshooting">Troubleshooting</a>
+      </li>
+      <li class="">
+        <a href="/docs/sites">Sites using Jekyll</a>
+      </li>
+      <li class="">
+        <a href="/docs/resources">Resources</a>
+      </li>
+    </ul>
+  </aside>
+</div>
+
+
+      <div class="clear"></div>
+
+    </div>
+  </section>
+
+
+  <footer>
+  <div class="content">
+    <div class="grid4 first">
+      <p>By <a href="http://tom.preston-werner.com">Tom Preston-Werner</a>, <a href="http://quaran.to/">Nick Quaranto</a>, and many more <a href="https://github.com/mojombo/jekyll/graphs/contributors">awesome contributors</a>.</p>
+    </div>
+    <div class="grid8 align-right">
+      <p>Proudly hosted by</p>
+      <a href="https://github.com">
+        <img src="/img/footer-logo.png" alt="GitHub • Social coding">
+      </a>
+    </div>
+    <div class="clear"></div>
+  </div>
+</footer>
+<div class="clear"></div>
+
+  
+  <!-- Gauges (http://gaug.es/) -->
+  <script type="text/javascript">
+    var _gauges = _gauges || [];
+    (function() {
+      var t   = document.createElement('script');
+      t.type  = 'text/javascript';
+      t.async = true;
+      t.id    = 'gauges-tracker';
+      t.setAttribute('data-site-id', '503c5af6613f5d0f19000027');
+      t.src = '//secure.gaug.es/track.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(t, s);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

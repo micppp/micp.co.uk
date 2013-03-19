@@ -1,0 +1,257 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <title>Contributing</title>
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/normalize.css" />
+  <link rel="stylesheet" href="/css/grid.css" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/pygments.css" />
+  <link rel="icon" type="image/x-icon" href="/favicon.png" />
+  <script src="/js/modernizr-2.5.3.min.js"></script>
+</head>
+
+
+<body>
+  <header>
+  <div class="content">
+    <div class="grid3 first">
+      <h1>
+        <a href="/">
+          <span>Jekyll</span>
+          <img src="/img/logo-2x.png" width="249px" height="115px" alt="">
+        </a>
+      </h1>
+    </div>
+    <nav class="grid6">
+      <ul>
+        <li >
+          <a href="/">Overview</a>
+        </li>
+        <li class="current">
+          <a href="/docs">Documentation</a>
+        </li>
+        <li class="">
+          <a href="https://github.com/mojombo/jekyll">View on GitHub</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="clear"></div>
+  </div>
+</header>
+
+
+    <section class="docs">
+    <div class="content">
+
+      <div class="grid10 first">
+        <article>
+          <h1>Contributing</h1>
+          <p>Contributions to Jekyll are always welcome, however there’s a few things that you should keep in mind to improve your chances of having your changes merged in.</p>
+
+<h2 id='workflow'>Workflow</h2>
+
+<p>Here’s the most typical way to get your change merged into the project:</p>
+
+<ol>
+<li>Fork the project <a href='https://github.com/mojombo/jekyll'>on GitHub</a> and clone it down to your local machine.</li>
+
+<li>Create a topic branch to contain your change.</li>
+
+<li>Hack away, add tests. Not necessarily in that order.</li>
+
+<li>Make sure all the existing tests still pass.</li>
+
+<li>If necessary, rebase your commits into logical chunks, without errors.</li>
+
+<li>Push the branch up to your fork on GitHub.</li>
+
+<li>Create an issue on GitHub with a link to your branch.</li>
+</ol>
+<div class='note warning'>
+  <h5>Contributions will not be accepted without tests</h5>
+  <p>If you’re creating a small fix or patch to an existing feature, just
+    a simple test will do.</p>
+</div>
+<h2 id='tests'>Tests</h2>
+
+<p>We’re big on tests, so please be sure to include them. Please stay in the confines of the current test suite and use <a href='https://github.com/thoughtbot/shoulda'>Shoulda</a> and <a href='https://github.com/btakita/rr'>RR</a>.</p>
+
+<h3 id='tests_for_brandnew_features'>Tests for brand-new features</h3>
+
+<p>If it’s a brand new feature, make sure to create a new <a href='https://github.com/cucumber/cucumber/'>Cucumber</a> feature and reuse steps where appropriate. Also, whipping up some documentation in your fork’s <code>gh-pages</code> branch would be appreciated, so the main website can be updated as soon as your new feature is merged.</p>
+
+<h3 id='test_dependencies'>Test dependencies</h3>
+
+<p>To run the test suite and build the gem you’ll need to install Jekyll’s dependencies. Jekyll uses Bundler, so a quick run of the bundle command and you’re all set!</p>
+<div class='highlight'><pre><code class='bash'><span class='nv'>$ </span>bundle
+</code></pre></div>
+<p>Before you start, run the tests and make sure that they pass (to confirm your environment is configured properly):</p>
+<div class='highlight'><pre><code class='bash'><span class='nv'>$ </span>rake <span class='nb'>test</span>
+<span class='nv'>$ </span>rake features
+</code></pre></div>
+<h2 id='common_gotchas'>Common Gotchas</h2>
+
+<ul>
+<li>If you want to bump the gem version, please put that in a separate commit. This way, the maintainers can control when the gem gets released.</li>
+
+<li>Try to keep your patch(es) based from <a href='https://github.com/mojombo/jekyll/commits/master'>the latest commit on mojombo/jekyll</a>. The easier it is to apply your work, the less work the maintainers have to do, which is always a good thing.</li>
+
+<li>Please don’t tag your GitHub issue with labels like “fix” or “feature”. The maintainers actively read the issues and will label it once they come across it.</li>
+</ul>
+<div class='note'>
+  <h5>Let us know what could be better!</h5>
+  <p>Both using and hacking on Jekyll should be fun, simple, and easy, so if for some reason you find it’s a pain, please <a href='https://github.com/mojombo/jekyll/issues/new'>create an issue</a> on GitHub describing your experience so we can make it better.</p>
+</div>
+          <div class="section-nav">
+  <div class="left align-right">
+    
+      <a href="/docs/deployment-methods" class="prev">
+        Back
+      </a>
+    
+  </div>
+  <div class="right align-left">
+    
+      <a href="/docs/troubleshooting" class="next">
+        Next
+      </a>
+    
+  </div>
+  <div class="clear"></div>
+</div>
+
+
+        </article>
+      </div>
+
+      <div class="grid2">
+  <aside>
+    <h4>Getting Started</h4>
+    <ul>
+      <li class="">
+        <a href="/docs/home">Welcome</a>
+      </li>
+      <li class="">
+        <a href="/docs/installation">Installation</a>
+      </li>
+      <li class="">
+        <a href="/docs/usage">Basic Usage</a>
+      </li>
+      <li class="">
+        <a href="/docs/structure">Directory structure</a>
+      </li>
+      <li class="">
+        <a href="/docs/configuration">Configuration</a>
+      </li>
+    </ul>
+    <h4>Your Content</h4>
+    <ul>
+      <li class="">
+        <a href="/docs/frontmatter">Front-matter</a>
+      </li>
+      <li class="">
+        <a href="/docs/posts">Writing posts</a>
+      </li>
+      <li class="">
+        <a href="/docs/pages">Creating pages</a>
+      </li>
+      <li class="">
+        <a href="/docs/variables">Variables</a>
+      </li>
+      <li class="">
+        <a href="/docs/migrations">Blog migrations</a>
+      </li>
+    </ul>
+    <h4>Customization</h4>
+    <ul>
+      <li class="">
+        <a href="/docs/templates">Templates</a>
+      </li>
+      <li class="">
+        <a href="/docs/permalinks">Permalinks</a>
+      </li>
+      <li class="">
+        <a href="/docs/pagination">Pagination</a>
+      </li>
+      <li class="">
+        <a href="/docs/plugins">Plugins</a>
+      </li>
+      <li class="">
+        <a href="/docs/extras">Extras</a>
+      </li>
+    </ul>
+    <h4>Deployment</h4>
+    <ul>
+      <li class="">
+        <a href="/docs/github-pages">GitHub Pages</a>
+      </li>
+      <li class="">
+        <a href="/docs/deployment-methods">Other methods</a>
+      </li>
+    </ul>
+    <h4>Miscellaneous</h4>
+    <ul>
+      <li class="current">
+        <a href="/docs/contributing">Contributing</a>
+      </li>
+      <li class="">
+        <a href="/docs/troubleshooting">Troubleshooting</a>
+      </li>
+      <li class="">
+        <a href="/docs/sites">Sites using Jekyll</a>
+      </li>
+      <li class="">
+        <a href="/docs/resources">Resources</a>
+      </li>
+    </ul>
+  </aside>
+</div>
+
+
+      <div class="clear"></div>
+
+    </div>
+  </section>
+
+
+  <footer>
+  <div class="content">
+    <div class="grid4 first">
+      <p>By <a href="http://tom.preston-werner.com">Tom Preston-Werner</a>, <a href="http://quaran.to/">Nick Quaranto</a>, and many more <a href="https://github.com/mojombo/jekyll/graphs/contributors">awesome contributors</a>.</p>
+    </div>
+    <div class="grid8 align-right">
+      <p>Proudly hosted by</p>
+      <a href="https://github.com">
+        <img src="/img/footer-logo.png" alt="GitHub • Social coding">
+      </a>
+    </div>
+    <div class="clear"></div>
+  </div>
+</footer>
+<div class="clear"></div>
+
+  
+  <!-- Gauges (http://gaug.es/) -->
+  <script type="text/javascript">
+    var _gauges = _gauges || [];
+    (function() {
+      var t   = document.createElement('script');
+      t.type  = 'text/javascript';
+      t.async = true;
+      t.id    = 'gauges-tracker';
+      t.setAttribute('data-site-id', '503c5af6613f5d0f19000027');
+      t.src = '//secure.gaug.es/track.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(t, s);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

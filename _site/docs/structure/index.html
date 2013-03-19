@@ -1,0 +1,285 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <title>Directory structure</title>
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/normalize.css" />
+  <link rel="stylesheet" href="/css/grid.css" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/pygments.css" />
+  <link rel="icon" type="image/x-icon" href="/favicon.png" />
+  <script src="/js/modernizr-2.5.3.min.js"></script>
+</head>
+
+
+<body>
+  <header>
+  <div class="content">
+    <div class="grid3 first">
+      <h1>
+        <a href="/">
+          <span>Jekyll</span>
+          <img src="/img/logo-2x.png" width="249px" height="115px" alt="">
+        </a>
+      </h1>
+    </div>
+    <nav class="grid6">
+      <ul>
+        <li >
+          <a href="/">Overview</a>
+        </li>
+        <li class="current">
+          <a href="/docs">Documentation</a>
+        </li>
+        <li class="">
+          <a href="https://github.com/mojombo/jekyll">View on GitHub</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="clear"></div>
+  </div>
+</header>
+
+
+    <section class="docs">
+    <div class="content">
+
+      <div class="grid10 first">
+        <article>
+          <h1>Directory structure</h1>
+          <p>Jekyll at its core is a text transformation engine. The concept behind the system is this: you give it text written in your favorite markup language, be that Markdown, Textile, or just plain HTML, and it churns that through a layout or series of layout files. Throughout that process you can tweak how you want the site URLs to look, what data gets displayed on the layout and more. This is all done through strictly editing files, and the web interface is the final product.</p>
+
+<p>A basic Jekyll site usually looks something like this:</p>
+<div class='highlight'><pre><code class='bash'>.
+├── _config.yml
+├── _includes
+|   ├── footer.html
+|   └── header.html
+├── _layouts
+|   ├── default.html
+|   └── post.html
+├── _posts
+|   ├── 2007-10-29-why-every-programmer-should-play-nethack.textile
+|   └── 2009-04-26-barcamp-boston-4-roundup.textile
+├── _site
+└── index.html
+</code></pre></div>
+<p>An overview of what each of these does:</p>
+<table>
+  <thead>
+    <tr>
+      <th>File / Directory</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <p><code>_config.yml</code></p>
+      </td>
+      <td>
+        <p>Stores <a href='../configuration'>configuration</a> data. A majority of these options can be specified from the command line executable but it’s easier to throw them in here so you don’t have to remember them.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><code>_includes</code></p>
+      </td>
+      <td>
+        <p>These are the partials that can be mixed and matched by your _layouts and _posts to facilitate reuse.  The liquid tag <code>{% include file.ext %}</code> can be used to include the partial in <code>_includes/file.ext</code>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><code>_layouts</code></p>
+      </td>
+      <td>
+        <p>These are the templates which posts are inserted into. Layouts are chosen on a post-by-post basis in the <a href='../frontmatter'>YAML front matter</a>, which is described in the next section. The liquid tag <code>{{ content }}</code> is used to inject data onto the page.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><code>_posts</code></p>
+      </td>
+      <td>
+        <p>Your dynamic content, so to speak. The format of these files is important, as named as <code>YEAR-MONTH-DAY-title.MARKUP</code>. The <a href='../permalinks'>permalinks</a> can be adjusted very flexibly for each post, but the date and markup language are determined solely by the file name.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><code>_site</code></p>
+      </td>
+      <td>
+        <p>This is where the generated site will be placed once Jekyll is done transforming it. It's probably a good idea to add this to your <code>.gitignore</code> file.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p><code>index.html</code> and other HTML, Markdown, Textile files</p>
+      </td>
+      <td>
+        <p>Provided that the file has a <a href='../frontmatter'>YAML Front Matter</a> section, it will be transformed by Jekyll. The same will happen for any <code>.html</code>, <code>.markdown</code>, <code>.md</code>, or <code>.textile</code> file in your site's root directory or directories not listed above.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>Other Files/Folders</p>
+      </td>
+      <td>
+        <p>Every other directory and file except for those listed above—such as <code>css</code> and <code>images</code> folders, <code>favicon.ico</code> files, and so forth—will be transferred over verbatim to the generated site. There's plenty of <a href='../sites'>sites already using Jekyll</a> if you're curious as to how they're laid out.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+          <div class="section-nav">
+  <div class="left align-right">
+    
+      <a href="/docs/usage" class="prev">
+        Back
+      </a>
+    
+  </div>
+  <div class="right align-left">
+    
+      <a href="/docs/configuration" class="next">
+        Next
+      </a>
+    
+  </div>
+  <div class="clear"></div>
+</div>
+
+
+        </article>
+      </div>
+
+      <div class="grid2">
+  <aside>
+    <h4>Getting Started</h4>
+    <ul>
+      <li class="">
+        <a href="/docs/home">Welcome</a>
+      </li>
+      <li class="">
+        <a href="/docs/installation">Installation</a>
+      </li>
+      <li class="">
+        <a href="/docs/usage">Basic Usage</a>
+      </li>
+      <li class="current">
+        <a href="/docs/structure">Directory structure</a>
+      </li>
+      <li class="">
+        <a href="/docs/configuration">Configuration</a>
+      </li>
+    </ul>
+    <h4>Your Content</h4>
+    <ul>
+      <li class="">
+        <a href="/docs/frontmatter">Front-matter</a>
+      </li>
+      <li class="">
+        <a href="/docs/posts">Writing posts</a>
+      </li>
+      <li class="">
+        <a href="/docs/pages">Creating pages</a>
+      </li>
+      <li class="">
+        <a href="/docs/variables">Variables</a>
+      </li>
+      <li class="">
+        <a href="/docs/migrations">Blog migrations</a>
+      </li>
+    </ul>
+    <h4>Customization</h4>
+    <ul>
+      <li class="">
+        <a href="/docs/templates">Templates</a>
+      </li>
+      <li class="">
+        <a href="/docs/permalinks">Permalinks</a>
+      </li>
+      <li class="">
+        <a href="/docs/pagination">Pagination</a>
+      </li>
+      <li class="">
+        <a href="/docs/plugins">Plugins</a>
+      </li>
+      <li class="">
+        <a href="/docs/extras">Extras</a>
+      </li>
+    </ul>
+    <h4>Deployment</h4>
+    <ul>
+      <li class="">
+        <a href="/docs/github-pages">GitHub Pages</a>
+      </li>
+      <li class="">
+        <a href="/docs/deployment-methods">Other methods</a>
+      </li>
+    </ul>
+    <h4>Miscellaneous</h4>
+    <ul>
+      <li class="">
+        <a href="/docs/contributing">Contributing</a>
+      </li>
+      <li class="">
+        <a href="/docs/troubleshooting">Troubleshooting</a>
+      </li>
+      <li class="">
+        <a href="/docs/sites">Sites using Jekyll</a>
+      </li>
+      <li class="">
+        <a href="/docs/resources">Resources</a>
+      </li>
+    </ul>
+  </aside>
+</div>
+
+
+      <div class="clear"></div>
+
+    </div>
+  </section>
+
+
+  <footer>
+  <div class="content">
+    <div class="grid4 first">
+      <p>By <a href="http://tom.preston-werner.com">Tom Preston-Werner</a>, <a href="http://quaran.to/">Nick Quaranto</a>, and many more <a href="https://github.com/mojombo/jekyll/graphs/contributors">awesome contributors</a>.</p>
+    </div>
+    <div class="grid8 align-right">
+      <p>Proudly hosted by</p>
+      <a href="https://github.com">
+        <img src="/img/footer-logo.png" alt="GitHub • Social coding">
+      </a>
+    </div>
+    <div class="clear"></div>
+  </div>
+</footer>
+<div class="clear"></div>
+
+  
+  <!-- Gauges (http://gaug.es/) -->
+  <script type="text/javascript">
+    var _gauges = _gauges || [];
+    (function() {
+      var t   = document.createElement('script');
+      t.type  = 'text/javascript';
+      t.async = true;
+      t.id    = 'gauges-tracker';
+      t.setAttribute('data-site-id', '503c5af6613f5d0f19000027');
+      t.src = '//secure.gaug.es/track.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(t, s);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
