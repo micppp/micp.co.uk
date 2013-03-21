@@ -39,11 +39,10 @@ legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
 body {font-size:1em;}
 
 .header {width: 100%; position: static; margin: 0; padding: 2% 5%; background:#eee; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; border-right:1px dotted #bbb;}
-.logo {text-align:center;}
+.logo {float:left;}
 .logo-img {margin:10%; height:100%; width:100%;}
-.nav {margin:0 auto; text-align:center; padding: 10% 0;}
-.nav-item {display:block; font-size:0.85em; line-height:2em; padding:0 0 0 5%;}
-
+.nav {float:right;}
+.nav-item {display:inline-block;}
 .content {position: static; width: 35em; max-width: 90%; padding: 2.5% 5%;}
 
 
@@ -51,6 +50,10 @@ body {font-size:1em;}
 @media all and (min-width: 770px) {
 	.header {height: 100%;	width: 25%;	padding: 0 2.5%; position: fixed; top: 0; left: 0;}
 	.content {max-width: 60%; position: relative; top: 0; left: 25%;}
+	.logo {text-align:center;}
+	.logo-img {height:200px; width:200px;}
+	.nav {margin:0 auto; text-align:center; padding: 10% 0;}
+	.nav-item {display:block; font-size:0.85em; line-height:2em; padding:0 0 0 5%;}
 }
 
 
