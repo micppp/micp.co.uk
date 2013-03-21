@@ -47,6 +47,7 @@ h1,h2,h3,h4,h5,h6 {margin:0; padding:0;}
 .nav-item:hover {background:#ddd;}
 
 .content {position: static; width: 35em; max-width: 90%; padding: 2.5% 5%;}
+.article {margin: 0 0 20px 0; border-bottom:1px dotted #bbb;}
 
 /* overrides for tablet landscape and desktop */
 @media all and (min-width: 770px) {
