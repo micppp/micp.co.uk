@@ -49,14 +49,15 @@ a, a:active, a:hover {color:#000; text-decoration: none;}
 .nav-item-rss:hover {background:#FF6600;}
 
 .content {position: static; width: 45em; max-width: 90%; padding: 2.5% 5%;}
-.article {margin: 0 0 20px 0; padding:0 0 20px 0; border-bottom:1px dotted #bbb;}
+.article {margin: 0 0 2em 0; padding:0 0 2em 0; border-bottom:1px dotted #bbb;}
 
 .post-title {margin: 0.5em 0;}
 .post-date, .page-date, .pagination {font-size:0.85em; color:#aaa;}
 .post-content {line-height:1.75em;}
-.pagination {margin:0 0 20px 0;}
+.pagination {margin:0 0 2em 0;}
+.pagination-previous, .pagination-next {padding:0.25em;}
 
-.page-title {padding: 0 0 10px 0; border-bottom:1px dotted #bbb;}
+.page-title {padding: 0 0 1em 0; border-bottom:1px dotted #bbb;}
 
 /* overrides for tablet landscape and desktop */
 @media all and (min-width: 770px) {
