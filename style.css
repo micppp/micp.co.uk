@@ -49,6 +49,10 @@ h1,h2,h3,h4,h5,h6 {margin:0; padding:0;}
 .content {position: static; width: 45em; max-width: 90%; padding: 2.5% 5%;}
 .article {margin: 0 0 20px 0; padding:0 0 20px 0; border-bottom:1px dotted #bbb;}
 
+.post-title {margin: 0.5em 0;}
+.post-date {font-size:0.85em; color:#aaa;}
+.post-content {line-height:1.25em;}
+
 /* overrides for tablet landscape and desktop */
 @media all and (min-width: 770px) {
 	.header {height: 100%;	width: 25%;	position: fixed; top: 0; left: 0; overflow:hidden;}
