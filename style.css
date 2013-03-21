@@ -44,6 +44,9 @@ a, a:active, a:hover {color:#000; text-decoration: none;}
 .nav, .pagination {float:right;}
 .nav-item {display:inline-block; font-size:0.85em; line-height:5.85em; padding:0 0.5em;}
 .nav-item:hover {background:#63bab0; color:#fff;}
+.nav-item-twitter:hover {background:#2B4964;}
+.nav-item-linkedin:hover {background:#4875B4;}
+.nav-item-rss:hover {background:#FF6600;}
 
 .content {position: static; width: 45em; max-width: 90%; padding: 2.5% 5%;}
 .article {margin: 0 0 20px 0; padding:0 0 20px 0; border-bottom:1px dotted #bbb;}
@@ -62,8 +65,3 @@ a, a:active, a:hover {color:#000; text-decoration: none;}
 	.nav {float:none; margin:0 auto; text-align:center;}
 	.nav-item {display:block; line-height:4em; padding:0;}
 }
-
-
-
-
-
