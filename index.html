@@ -24,11 +24,11 @@ title: Testing
 
 <div class="pagination">
 	{% if paginator.previous_page %}
-	{% if paginator.previous_page == 1 %}
-		<a href="/" class="pagination-previous pagination-active">Previous</a> | 
-	{% else %}
-		<a href="/page{{paginator.previous_page}}" class="pagination-previous pagination-active">Previous</a> | 
-	{% endif %}
+		{% if paginator.previous_page == 1 %}
+			<a href="/" class="pagination-previous pagination-active">Previous</a> | 
+		{% else %}
+			<a href="/page{{paginator.previous_page}}" class="pagination-previous pagination-active">Previous</a> | 
+		{% endif %}
 	{% else %}
 		<span class="pagination-previous">Previous</span> | 
 	{% endif %}

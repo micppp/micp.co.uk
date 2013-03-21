@@ -57,6 +57,7 @@ a, a:active, a:hover {color:#000; text-decoration: none;}
 
 .btn {float:right; padding:0.75em; color:#fff; font-size:0.75em}
 .btn-post {background:#63bab0;}
+.btn-post:hover {background:#4b8e86; color:#fff;}
 
 .pagination {margin:0 0 2em 0;}
 .pagination-previous, .pagination-next {padding:0.25em 0.5em;}
