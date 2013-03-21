@@ -14,7 +14,7 @@ title: Testing
     <div class="article-date">
     	{{ post.date | date: "%B %e, %Y" }}
     </div>
-    <p class="article-content">{{ post.content }}</p>
+    <p class="article-content">{{ post.content | strip_html | truncatewords:75 }}</p>
 
 {% endfor %}
 </article>
