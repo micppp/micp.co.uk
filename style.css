@@ -19,7 +19,7 @@ small{font-size:80%;}
 sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}
 sup{top:-.5em;}
 sub{bottom:-.25em;}
-img {max-width:100%;vertical-align:bottom;border:0;}
+img {vertical-align:bottom;border:0;}
 svg:not(:root){overflow:hidden;}
 fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em;}
 button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}
@@ -40,7 +40,7 @@ body {font-size:1em;}
 
 .header {width: 100%; position: static; margin: 0; padding: 2% 5%; background:#eee; overflow:hidden; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; border-right:1px dotted #bbb;}
 .logo {float:left;}
-.logo-img {margin:10%; height:100%; width:100%;}
+.logo-img {margin:0; height:40%; width:40%;}
 .nav {float:right;}
 .nav-item {display:inline-block;}
 .content {position: static; width: 35em; max-width: 90%; padding: 2.5% 5%;}
@@ -51,7 +51,7 @@ body {font-size:1em;}
 	.header {height: 100%;	width: 25%;	padding: 0 2.5%; position: fixed; top: 0; left: 0; overflow:hidden;}
 	.content {max-width: 60%; position: relative; top: 0; left: 25%;}
 	.logo {text-align:center; float:none;}
-	.logo-img {height:200px; width:200px;}
+	.logo-img {height:150px; width:150px;}
 	.nav {float:none; margin:0 auto; text-align:center; padding: 10% 0;}
 	.nav-item {display:block; font-size:0.85em; line-height:2em; padding:0 0 0 5%;}
 }
