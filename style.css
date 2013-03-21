@@ -41,7 +41,7 @@ legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* Opera/IE 8+ */
 	border-right:1px dotted #bbb;}
-.content {position: static; width: 35em; max-width: 90%; padding: 5%;}
+.content {position: static; width: 35em; max-width: 90%; padding: 2.5% 5%;}
 .footer {padding: 2% 5%;
 font-size: 13px;
 background-color: #000;
