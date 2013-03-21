@@ -38,7 +38,7 @@ legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
 
 body {font-size:1em;}
 
-.header {width: 100%; position: static; margin: 0; padding: 2% 5%; background:#eee; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; border-right:1px dotted #bbb;}
+.header {width: 100%; position: static; margin: 0; padding: 2% 5%; background:#eee; overflow:hidden; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; border-right:1px dotted #bbb;}
 .logo {float:left;}
 .logo-img {margin:10%; height:100%; width:100%;}
 .nav {float:right;}
