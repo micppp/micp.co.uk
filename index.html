@@ -15,6 +15,7 @@ title: Testing
     	{{ post.date | date: "%B %e, %Y" }}
     </div>
     <p class="article-content">{{ post.content | strip_html | truncatewords:75 }}</p>
+    <div class="btn article-btn"><a href="{{ post.url }}">View more</a></div>
 
 {% endfor %}
 </article>
