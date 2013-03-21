@@ -43,7 +43,7 @@ a, a:active, a:hover {color:#000; text-decoration: none;}
 
 .nav, .pagination {float:right;}
 .nav-item {display:inline-block; font-size:0.85em; line-height:5.85em; padding:0 0.5em;}
-.nav-item-about:hover {background:#63bab0; color:#fff;}
+.nav-item:hover {background:#63bab0; color:#fff;}
 
 .content {position: static; width: 45em; max-width: 90%; padding: 2.5% 5%;}
 .article {margin: 0 0 20px 0; padding:0 0 20px 0; border-bottom:1px dotted #bbb;}
