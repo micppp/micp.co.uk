@@ -54,7 +54,7 @@ h1,h2,h3,h4,h5,h6 {margin:0; padding:0;}
 .post-content {line-height:1.75em;}
 .pagination {margin:0 0 20px 0;}
 
-.page-title {margin: 0 0 10px 0; border-bottom:1px dotted #bbb;}
+.page-title {padding: 0 0 10px 0; border-bottom:1px dotted #bbb;}
 
 /* overrides for tablet landscape and desktop */
 @media all and (min-width: 770px) {
