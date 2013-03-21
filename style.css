@@ -3,7 +3,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 audio,canvas,video{display:inline-block;}
 audio:not([controls]){display:none;height:0;}
 [hidden]{display:none;}
-html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+html{font-family:helvetica, arial, sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
 a:focus{outline:thin dotted;}
 a:active,a:hover{outline:0;}
 h1{font-size:2em;margin:.67em 0;}
@@ -36,7 +36,7 @@ table{border-collapse:collapse;border-spacing:0;}
 body,figure{margin:0;}
 legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
 
-body {font-family:helvetica, arial, sans-serif;}
+body {font-size:1em;}
 
 .header {width: 100%; position: static; margin: 0; padding: 2% 5%; background:#eee; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; border-right:1px dotted #bbb;}
 .content {position: static; width: 35em; max-width: 90%; padding: 2.5% 5%;}
