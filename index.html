@@ -18,9 +18,7 @@ title: Testing
 	    <p class="post-content">
 	    	{{ post.content | strip_html | truncatewords:75 }}
 	    </p>
-	    <div class="btn post-btn">
-	    	<a href="{{ post.url }}">View more</a>
-	    </div>
+	    <a class="btn btn-post" href="{{ post.url }}">View more</a>
 	</article>
 {% endfor %}
 
