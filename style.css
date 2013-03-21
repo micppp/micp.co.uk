@@ -37,6 +37,7 @@ body,figure{margin:0;}
 legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
 
 body {font-size:1em;}
+a, a:active, a:hover {color:#000; text-decoration: none;}
 
 .header {width: 100%; position: static; margin: 0; background:#eee; overflow:hidden; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; border-right:1px dotted #bbb;}
 .nav {float:right;}
