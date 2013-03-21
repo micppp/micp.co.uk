@@ -3,9 +3,8 @@ layout: default
 title: Testing
 ---
 
+{% for post in paginator.posts %}
 <article class="article">
-{% for post in site.posts %}
-
     <header class="article-header">
     	<a href="{{ post.url }}">
     		{{ post.title }}
@@ -14,8 +13,26 @@ title: Testing
     <div class="article-date">
     	{{ post.date | date: "%B %e, %Y" }}
     </div>
-    <p class="article-content">{{ post.content | strip_html | truncatewords:75 }}</p>
-    <div class="btn article-btn"><a href="{{ post.url }}">View more</a></div>
-
-{% endfor %}
+    <p class="article-content">
+    	{{ post.content | strip_html | truncatewords:75 }}
+    </p>
+    <div class="btn article-btn">
+    	<a href="{{ post.url }}">View more</a>
+    </div>
 </article>
+{% endfor %}
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="/page{{paginator.previous_page}}" class="previous">Previous</a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">Page: {{paginator.page}} of {{paginator.total_pages}}</span>
+  {% if paginator.next_page %}
+    <a href="/page{{paginator.next_page}}" class="next ">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div>

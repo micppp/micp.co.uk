@@ -1,2 +1,5 @@
 auto: true
 markdown: rdiscount
+pygments: true
+url: http://micppp.github.com
+paginate: 5 # the number of post per page
