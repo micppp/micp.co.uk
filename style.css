@@ -36,7 +36,10 @@ table{border-collapse:collapse;border-spacing:0;}
 body,figure{margin:0;}
 legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
 
-.header {width: 100%; position: static; margin: 0; padding: 1.5rem 0 1rem 2%; background:#ccc; box-sizing: border-box;}
+.header {width: 100%; position: static; margin: 0; padding: 1.5rem 0 1rem 2%; background:#ccc; 
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */}
 .content {position: static; width: 35em; max-width: 90%; padding: 5% 0% 10% 6%; background:#bbb;}
 .footer {padding: 1.5rem 6%;
 font-size: 13px;
