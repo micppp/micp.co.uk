@@ -48,7 +48,7 @@ body {font-size:1em;}
 
 
 @media all and (min-width: 770px) {
-	.header {height: 100%;	width: 25%;	padding: 0 2.5%; position: fixed; top: 0; left: 0;}
+	.header {height: 100%;	width: 25%;	padding: 0 2.5%; position: fixed; top: 0; left: 0; overflow:hidden;}
 	.content {max-width: 60%; position: relative; top: 0; left: 25%;}
 	.logo {text-align:center; float:none;}
 	.logo-img {height:200px; width:200px;}
