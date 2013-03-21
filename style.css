@@ -49,13 +49,13 @@ a, a:active, a:hover {color:#000; text-decoration: none;}
 .nav-item-rss:hover {background:#FF6600;}
 
 .content {position: static; width: 45em; max-width: 90%; padding: 2.5% 5%;}
-.article {margin: 0 0 2em 0; padding:0 0 2em 0; border-bottom:1px dotted #bbb;}
+.article {margin: 0 0 2em 0; padding:0 0 1em 0; border-bottom:1px dotted #bbb; overflow:hidden;}
 
 .post-title {margin: 0.5em 0;}
 .post-date, .page-date, .pagination {font-size:0.85em; color:#aaa;}
 .post-content {line-height:1.75em;}
 
-.btn {float:right;}
+.btn {float:right; padding:0.25em; background:#63bab0;}
 
 .pagination {margin:0 0 2em 0;}
 .pagination-previous, .pagination-next {padding:0.25em 0.5em;}
