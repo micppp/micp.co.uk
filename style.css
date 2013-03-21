@@ -38,7 +38,7 @@ legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
 
 body {font-size:1em;}
 
-.header {width: 100%; position: static; margin: 0; padding: 2% 5%; background:#eee; overflow:hidden; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; border-right:1px dotted #bbb;}
+.header {width: 100%; position: static; margin: 0; background:#eee; overflow:hidden; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; border-right:1px dotted #bbb;}
 .logo {float:left;}
 .logo-img {margin:0; height:40%; width:40%;}
 .nav {float:right;}
@@ -50,10 +50,10 @@ body {font-size:1em;}
 @media all and (min-width: 770px) {
 	.header {height: 100%;	width: 25%;	padding: 0 2.5%; position: fixed; top: 0; left: 0; overflow:hidden;}
 	.content {max-width: 60%; position: relative; top: 0; left: 25%;}
-	.logo {text-align:center; float:none;}
+	.logo {text-align:center; float:none; margin:10%;}
 	.logo-img {height:150px; width:150px;}
-	.nav {float:none; margin:0 auto; text-align:center; padding: 10% 0;}
-	.nav-item {display:block; font-size:0.85em; line-height:2em; padding:0 0 0 5%;}
+	.nav {float:none; margin:0 auto; text-align:center;}
+	.nav-item {display:block; font-size:0.85em; line-height:2em;}
 }
 
 
