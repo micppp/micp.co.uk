@@ -40,8 +40,11 @@ body {font-size:1em;}
 a, a:active, a:hover {color:#000; text-decoration: none;}
 
 .header {width: 100%; position: static; margin: 0; background:#eee; overflow:hidden; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; border-right:1px dotted #bbb;}
+
 .nav {float:right;}
 .nav-item {display:inline-block; font-size:0.85em; line-height:2em;}
+.nav-item:hover {background:#ddd;}
+
 .content {position: static; width: 35em; max-width: 90%; padding: 2.5% 5%;}
 
 
@@ -51,7 +54,6 @@ a, a:active, a:hover {color:#000; text-decoration: none;}
 	.content {max-width: 60%; position: relative; top: 0; left: 25%;}
 	.nav {float:none; margin:0 auto; text-align:center;}
 	.nav-item {display:block;}
-	.nav-item:hover {background:#ddd;}
 }
 
 
