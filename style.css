@@ -43,7 +43,7 @@ a, a:active, a:hover {color:#000; text-decoration: none;}
 
 .nav, .pagination {float:right;}
 .nav-item {display:inline-block; font-size:0.85em; line-height:5.85em; padding:0 0.5em;}
-.nav-item:hover, .pagination-next:hover, .pagination-previous:hover {background:#63bab0; color:#fff;}
+.nav-item:hover, .pagination-active:hover {background:#63bab0; color:#fff;}
 .nav-item-twitter:hover {background:#2B4964;}
 .nav-item-linkedin:hover {background:#4875B4;}
 .nav-item-rss:hover {background:#FF6600;}
