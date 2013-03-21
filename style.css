@@ -52,7 +52,7 @@ body {font-size:1em;}
 	.content {max-width: 60%; position: relative; top: 0; left: 25%;}
 	.logo {text-align:center;}
 	.logo-img {height:200px; width:200px;}
-	.nav {margin:0 auto; text-align:center; padding: 10% 0;}
+	.nav {float:none; margin:0 auto; text-align:center; padding: 10% 0;}
 	.nav-item {display:block; font-size:0.85em; line-height:2em; padding:0 0 0 5%;}
 }
 
