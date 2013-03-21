@@ -54,6 +54,9 @@ a, a:active, a:hover {color:#000; text-decoration: none;}
 .post-title {margin: 0.5em 0;}
 .post-date, .page-date, .pagination {font-size:0.85em; color:#aaa;}
 .post-content {line-height:1.75em;}
+
+.btn {float:right;}
+
 .pagination {margin:0 0 2em 0;}
 .pagination-previous, .pagination-next {padding:0.25em 0.5em;}
 
