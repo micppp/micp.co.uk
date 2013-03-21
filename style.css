@@ -47,8 +47,7 @@ a, a:active, a:hover {color:#000; text-decoration: none;}
 
 .content {position: static; width: 35em; max-width: 90%; padding: 2.5% 5%;}
 
-
-
+/* overrides for tablet landscape and desktop */
 @media all and (min-width: 770px) {
 	.header {height: 100%;	width: 25%;	position: fixed; top: 0; left: 0; overflow:hidden;}
 	.content {max-width: 60%; position: relative; top: 0; left: 25%;}
