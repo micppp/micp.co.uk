@@ -43,7 +43,7 @@ a, a:active, a:hover {color:#000; text-decoration: none;}
 
 .nav, .pagination {float:right;}
 .nav-item {display:inline-block; font-size:0.85em; line-height:5.85em; padding:0 0.5em;}
-.nav-item:hover {background:#63bab0; color:#fff;}
+.nav-item:hover, .pagination-next:hover, .pagination-previous:hover {background:#63bab0; color:#fff;}
 .nav-item-twitter:hover {background:#2B4964;}
 .nav-item-linkedin:hover {background:#4875B4;}
 .nav-item-rss:hover {background:#FF6600;}
@@ -63,5 +63,5 @@ a, a:active, a:hover {color:#000; text-decoration: none;}
 	.sidebar {height: 100%;	width: 25%;	position: fixed; top: 0; left: 0; overflow:hidden;}
 	.content {max-width: 60%; position: relative; top: 0; left: 25%;}
 	.nav {float:none; margin:0 auto; text-align:center;}
-	.nav-item {display:block; line-height:4em; padding:0;}
+	.nav-item {display:block; line-height:3em; padding:0;}
 }
