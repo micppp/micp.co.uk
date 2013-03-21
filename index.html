@@ -6,17 +6,19 @@ title: Testing
 {% for post in paginator.posts %}
 	<article class="article">
 	    <header class="article-header">
-	    	<a href="{{ post.url }}">
-	    		{{ post.title }}
-	    	</a>
+	    	<h2 class="post-title">
+	    		<a href="{{ post.url }}">
+	    			{{ post.title }}
+	    		</a>
+	    	</h2>
+		    <div class="post-date">
+		    	{{ post.date | date: "%B %e, %Y" }}
+		    </div>
 	    </header>
-	    <div class="article-date">
-	    	{{ post.date | date: "%B %e, %Y" }}
-	    </div>
-	    <p class="article-content">
+	    <p class="post-content">
 	    	{{ post.content | strip_html | truncatewords:75 }}
 	    </p>
-	    <div class="btn article-btn">
+	    <div class="btn post-btn">
 	    	<a href="{{ post.url }}">View more</a>
 	    </div>
 	</article>
