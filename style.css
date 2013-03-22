@@ -44,24 +44,13 @@ a, a:active {color:#000; text-decoration: none;}
 .nav {width:100%;}
 .nav-list {margin:0; padding:0; display:none;}
 .nav-item {width:100%; float:none; font-size:0.85em; line-height:2.5em;}
+.nav-mobile {display:block; cursor:pointer; position:absolute; top:0.75em; right:1em; background:#63bab0 url(../img/nav.svg) no-repeat center center; height:40px; width:40px;}
+.nav-active {display:block; margin:4em 0 0 0;}
 .nav-item a {display:block; padding:0 0.75em 0 0.75em; text-align:center;}
 a:hover, .pagination-active:hover {background:#63bab0; color:#fff;}
 .nav-item-twitter a:hover {background:#2B4964;}
 .nav-item-linkedin a:hover {background:#4875B4;}
 .nav-item-rss a:hover {background:#FF6600;}
-
-.nav-mobile {
-    display:block;
-    cursor:pointer;
-    position:absolute;
-    top:0.75em;
-    right:1em;
-    background:#63bab0 url(../img/nav.svg) no-repeat center center;
-    height:40px;
-    width:40px;
-}
-
-.nav-active {display:block; margin:4em 0 0 0;}
 
 .content {position: static; width: 45em; max-width: 90%; padding: 2.5% 5%;}
 .article {margin: 0 0 1em 0; padding:0 0 1em 0; border-bottom:1px dotted #bbb; overflow:hidden;}
@@ -70,14 +59,14 @@ a:hover, .pagination-active:hover {background:#63bab0; color:#fff;}
 .post-date, .page-date, .pagination {font-size:0.85em; color:#aaa;}
 .post-content, .page-article p {line-height:1.75em;}
 
-.btn {float:right; padding:0.75em; color:#fff; font-size:0.75em;}
+.btn {float:right; padding:0.75em; color:#fff; font-size:0.75em; text-transform: uppercase;}
 .btn-post {background:#63bab0;}
 .btn-post:hover {background:#4b8e86; color:#fff;}
 
 .pagination {float:right; margin:0 0 2em 0;}
 .pagination-previous, .pagination-next {padding:0.25em 0.5em;}
 
-.page-title {padding: 0 0 1em 0; border-bottom:1px dotted #bbb;}
+.page-title {padding: 0.5em 0 1em 0; border-bottom:1px dotted #bbb;}
 
 /* overrides for tablet landscape and desktop */
 @media all and (min-width: 770px) {
@@ -87,4 +76,5 @@ a:hover, .pagination-active:hover {background:#63bab0; color:#fff;}
 	.nav-list {display:block;}
 	.nav-item {display:block; line-height:3em; padding:0;}
 	.nav-mobile {display:none;}
+	.page-title {padding:0 0 1em 0;}
 }
