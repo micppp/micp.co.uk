@@ -26,7 +26,11 @@ Once I’d got the device jailbroken I then installed Nito TV. To do this you wi
 
 Once you have that open terminal (or any other command line program) and enter the following:
 
+{% highlight ruby %}
+
     ssh root@IPADDRESS
+
+{% endhighlight %}
 
 You should then be prompted for your password. The default password as for the majority of Apple devices is alpine. Once you’ve entered this you’ll get a little message which you just need to type yes to then press enter.
 
