@@ -18,8 +18,6 @@ I’ve worked on all kinds of projects ranging from small sites with a few pages
 * .net
 * Adobe Photoshop
 
-#
 <a href="test">test</a>
-#
 
 I also have experience of working in a team, managing my own projects and my own workload whilst working towards tight deadlines. 
