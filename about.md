@@ -7,6 +7,8 @@ I am Michael Pallister. I’m 25 years old and I am a Web Developer from Middles
 
 I have been building websites and messing around with the web ever since I got a computer in my teens. I always knew from a young age that as I got older I would end up doing something that involved me using a computer on a daily basis.
 
+##Skills
+
 I’ve worked on all kinds of projects ranging from small sites with a few pages to large complex dynamically driven e-commerce websites. Some of the skills I’ve developed along the way are:
 
 <ul class="page-list">
