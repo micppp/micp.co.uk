@@ -54,14 +54,11 @@ a:hover, .pagination-active:hover {background:#63bab0; color:#fff;}
     display:block;
     cursor:pointer;
     position:absolute;
-    top:2.5%;
-    right:2%;
+    top:0.75em;
+    right:1em;
     background:#63bab0 url(../img/nav.svg) no-repeat center center;
     height:40px;
     width:40px;
-    border-radius:5px;
-    -webkit-border-radius:5px;
-    -moz-border-radius:5px;
 }
 
 .nav-active {display:block; margin:4em 0 0 0;}
@@ -73,7 +70,7 @@ a:hover, .pagination-active:hover {background:#63bab0; color:#fff;}
 .post-date, .page-date, .pagination {font-size:0.85em; color:#aaa;}
 .post-content, .page-article p {line-height:1.75em;}
 
-.btn {float:right; padding:0.75em; color:#fff; font-size:0.75em; border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px;}
+.btn {float:right; padding:0.75em; color:#fff; font-size:0.75em;}
 .btn-post {background:#63bab0;}
 .btn-post:hover {background:#4b8e86; color:#fff;}
 
