@@ -35,6 +35,8 @@ textarea{overflow:auto;vertical-align:top;}
 table{border-collapse:collapse;border-spacing:0;}
 body,figure{margin:0;}
 legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+::selection {background: #4b8e86;}
+::-moz-selection {background: #4b8e86;}
 
 body {font-size:1em; color:#2b2b2b;}
 a, a:active {color:#2b2b2b; text-decoration: none;}
@@ -74,7 +76,7 @@ a:hover, .pagination-active:hover {background:#63bab0; color:#fff;}
 /* overrides for tablet landscape and desktop */
 @media all and (min-width: 770px) {
 	.sidebar {height: 100%;	width: 25%;	position: fixed; top: 0; left: 0; overflow:hidden;}
-	.logo {text-align:center; margin:1.5em;}
+	.logo {text-align:center; margin:1.75em;}
 	.logo-sub {display:block; font-size:0.75em; color:#aaa;}
 	.content {max-width: 60%; position: relative; top: 0; left: 25%;}
 	.nav {float:none; margin:0 auto; text-align:center;}
