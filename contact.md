@@ -3,7 +3,7 @@ layout: page
 title: Contact
 ---
 
-If you have any questions or just wish to contact me you can either email me at [michael@micp.co.uk](michael@micp.co.uk) or you can probably catch me on twitter at [micppp](https://twitter.com/micppp).
+If you have any questions or just wish to contact me you can either email me at [mailto:michael@micp.co.uk](michael@micp.co.uk) or you can probably catch me on twitter at [micppp](https://twitter.com/micppp).
 
 ###Projects
 
