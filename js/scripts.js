@@ -1,3 +1,6 @@
+// used to display an icon instead of the navigation on smaller screens
+// Author: Todd Motto
+// http://toddmotto.com/building-an-html5-responsive-menu-with-media-queries-javascript/
 (function () {
 		
 	// Create mobile element
