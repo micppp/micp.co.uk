@@ -9,15 +9,14 @@ I have been building websites and messing around with the web ever since I got a
 
 I’ve worked on all kinds of projects ranging from small sites with a few pages to large complex dynamically driven e-commerce websites. Some of the skills I’ve developed along the way are:
 
-    <ul>
-	    <li>HTML(5)</li>
-	    <li>CSS(3)</li>
-	    <li>PHP</li>
-	    <li>mySQL</li>
-	    <li>Javascript/jQuery</li>
-	    <li>Adobe Colfusion</li>
-	    <li>.net</li>
-	    <li>Adobe Photoshop</li>
-  	</ul>
+* HTML(5)
+* CSS(3)
+* PHP
+* mySQL
+* Javascript/jQuery
+* Adobe Colfusion
+* .net
+* Adobe Photoshop
+
 
 I also have experience of working in a team, managing my own projects and my own workload whilst working towards tight deadlines. 
