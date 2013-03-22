@@ -22,6 +22,7 @@ title: Michael Pallister - Web Developer
 	</article>
 {% endfor %}
 
+{% if paginator.posts >= 5 %}
 <div class="pagination">
 	{% if paginator.previous_page %}
 		{% if paginator.previous_page == 1 %}
@@ -38,3 +39,4 @@ title: Michael Pallister - Web Developer
 		<span class="pagination-next">Next</span>
 	{% endif %}
 </div>
+{% endif %}
