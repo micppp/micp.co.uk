@@ -73,7 +73,7 @@ a:hover, .pagination-active:hover {background:#63bab0; color:#fff;}
 
 .page-title {padding: 0.5em 0 1em 0; border-bottom:1px dotted #bbb;}
 .page-list {margin:0 0 0 1em; padding:0;}
-.page-list-item {padding:0 0 0.5em 0;}
+.page-list-item {padding:0 0 0.5em 0; font-size:1.75em;}
 
 /* overrides for tablet landscape and desktop */
 @media all and (min-width: 770px) {
@@ -85,7 +85,6 @@ a:hover, .pagination-active:hover {background:#63bab0; color:#fff;}
 	.nav-list {display:block;}
 	.nav-item {display:block; line-height:3em; padding:0;}
 	.nav-mobile {display:none;}
-	.page-title {padding:0 0 1em 0;}
 }
 
 .highlight  {background:#2b2b2b; color:#F6F3E8;	padding:25px; margin:30px 0; overflow-x:scroll; font-size:0.85em;}
