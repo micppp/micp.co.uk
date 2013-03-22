@@ -86,18 +86,7 @@ a:hover, .pagination-active:hover {background:#63bab0; color:#fff;}
 	.page-title {padding:0 0 1em 0;}
 }
 
-.highlight  {
-	background:#2b2b2b;
-	color:#F6F3E8;
-	padding:25px;
-	margin:30px 0;
-	border-radius:5px;
-	-webkit-border-radius:5px;
-	-moz-border-radius:5px;
-	overflow-x:scroll;
-	font-size:0.85em;
-}
-
+.highlight  {background:#2b2b2b; color:#F6F3E8;	padding:25px; margin:30px 0; overflow-x:scroll; font-size:0.85em;}
 .highlight .hll { background-color: #49483e }
 .highlight .c { color: #75715e } /* Comment */
 .highlight .err { color: #960050; background-color: #1e0010 } /* Error */
