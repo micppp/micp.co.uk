@@ -72,7 +72,8 @@ a:hover, .pagination-active:hover {background:#63bab0; color:#fff;}
 .pagination-previous, .pagination-next {padding:0.25em 0.5em;}
 
 .page-title {padding: 0.5em 0 1em 0; border-bottom:1px dotted #bbb;}
-.page-list {margin:0; padding:0;}
+.page-list {margin:0 0 0 1em; padding:0;}
+.page-list-item {padding:0 0 0.5em 0;}
 
 /* overrides for tablet landscape and desktop */
 @media all and (min-width: 770px) {
