@@ -50,6 +50,20 @@ a:hover, .pagination-active:hover {background:#63bab0; color:#fff;}
 .nav-item-linkedin a:hover {background:#4875B4;}
 .nav-item-rss a:hover {background:#FF6600;}
 
+.nav-mobile {
+    display:block;
+    cursor:pointer;
+    position:absolute;
+    top:0;
+    right:0;
+    background:#34495E url(../img/nav.svg) no-repeat center center;
+    height:40px;
+    width:40px;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+}
+
 .content {position: static; width: 45em; max-width: 90%; padding: 2.5% 5%;}
 .article {margin: 0 0 1em 0; padding:0 0 1em 0; border-bottom:1px dotted #bbb; overflow:hidden;}
 
@@ -72,4 +86,5 @@ a:hover, .pagination-active:hover {background:#63bab0; color:#fff;}
 	.content {max-width: 60%; position: relative; top: 0; left: 25%;}
 	.nav {float:none; margin:0 auto; text-align:center;}
 	.nav-item {display:block; line-height:3em; padding:0;}
+	.nav-mobile {display:none;}
 }
