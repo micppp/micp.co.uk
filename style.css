@@ -54,8 +54,8 @@ a:hover, .pagination-active:hover {background:#63bab0; color:#fff;}
     display:block;
     cursor:pointer;
     position:absolute;
-    top:0;
-    right:0;
+    top:2%;
+    right:2%;
     background:#63bab0;
     height:40px;
     width:40px;
