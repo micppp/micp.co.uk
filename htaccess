@@ -1,9 +1,0 @@
----
-layout: none
-permalink: .htaccess
----
-
-RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule . / [L,R=301] 
-
