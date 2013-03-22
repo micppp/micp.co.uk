@@ -23,20 +23,20 @@ title: Michael Pallister - Web Developer
 {% endfor %}
 
 {% if paginator.posts >= 5 %}
-<div class="pagination">
-	{% if paginator.previous_page %}
-		{% if paginator.previous_page == 1 %}
-			<a href="/" class="pagination-previous pagination-active">Previous</a> | 
+	<div class="pagination">
+		{% if paginator.previous_page %}
+			{% if paginator.previous_page == 1 %}
+				<a href="/" class="pagination-previous pagination-active">Previous</a> | 
+			{% else %}
+				<a href="/page{{paginator.previous_page}}" class="pagination-previous pagination-active">Previous</a> | 
+			{% endif %}
 		{% else %}
-			<a href="/page{{paginator.previous_page}}" class="pagination-previous pagination-active">Previous</a> | 
+			<span class="pagination-previous">Previous</span> | 
 		{% endif %}
-	{% else %}
-		<span class="pagination-previous">Previous</span> | 
-	{% endif %}
-	{% if paginator.next_page %}
-		<a href="/page{{paginator.next_page}}" class="pagination-next pagination-active">Next</a>
-	{% else %}
-		<span class="pagination-next">Next</span>
-	{% endif %}
-</div>
+		{% if paginator.next_page %}
+			<a href="/page{{paginator.next_page}}" class="pagination-next pagination-active">Next</a>
+		{% else %}
+			<span class="pagination-next">Next</span>
+		{% endif %}
+	</div>
 {% endif %}
