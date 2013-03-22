@@ -37,13 +37,13 @@ body,figure{margin:0;}
 legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
 
 body {font-size:1em;}
-a, a:active, a:hover {color:#000; text-decoration: none;}
+a, a:active {color:#000; text-decoration: none;}
 
 .sidebar {width: 100%; height: 5em; position: static; margin: 0; background:#eee; overflow:hidden; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; border-right:1px dotted #bbb;}
 
 .nav, .pagination {float:right;}
 .nav-item {display:inline-block; font-size:0.85em; line-height:5.85em; padding:0 0.5em;}
-.nav-item:hover, .pagination-active:hover {background:#63bab0; color:#fff;}
+a:hover, .nav-item:hover, .pagination-active:hover {background:#63bab0; color:#fff;}
 .nav-item-twitter:hover {background:#2B4964;}
 .nav-item-linkedin:hover {background:#4875B4;}
 .nav-item-rss:hover {background:#FF6600;}
