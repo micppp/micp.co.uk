@@ -76,6 +76,11 @@ a:hover, .pagination-active:hover {background:#63bab0; color:#fff;}
 .page-list {margin:0 0 0 1em; padding:0;}
 .page-list-item {padding:0 0 0.5em 0;}
 
+.post-table {width:100%; margin:2em 0;}
+.post-table-column, .post-table-row, .post-table-row-alt {background:#ddd; padding:1em; text-align: center;}
+.post-table-row-alt {background:#eee;}
+.post-table-row {width:33.33%;}
+
 /* overrides for tablet landscape and desktop */
 @media all and (min-width: 770px) {
 	.sidebar {height: 100%;	width: 25%;	position: fixed; top: 0; left: 0; overflow:hidden;}
