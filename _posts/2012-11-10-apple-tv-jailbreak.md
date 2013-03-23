@@ -3,14 +3,6 @@ title: Apple TV jailbreak
 author: micp
 layout: post
 permalink: /2012/11/apple-tv-jailbreak/
-categories:
-  - Apple TV
-tags:
-  - apple
-  - apple tv
-  - ios
-  - jailbreak
-  - seas0npass
 ---
 # 
 

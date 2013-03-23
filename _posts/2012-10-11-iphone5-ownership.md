@@ -3,14 +3,6 @@ title: iPhone5 ownership
 author: micp
 layout: post
 permalink: /2012/10/iphone5-ownership/
-categories:
-  - Apple
-  - Blog
-  - iOS6
-  - iPhone
-tags:
-  - ios6
-  - iphone
 ---
 # 
 

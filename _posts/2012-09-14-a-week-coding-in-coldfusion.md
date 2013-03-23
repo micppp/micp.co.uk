@@ -3,12 +3,6 @@ title: A week coding in ColdFusion
 author: micp
 layout: post
 permalink: /2012/09/a-week-coding-in-coldfusion/
-categories:
-  - Web Development
-tags:
-  - adobe
-  - books
-  - coldfusion
 ---
 # 
 

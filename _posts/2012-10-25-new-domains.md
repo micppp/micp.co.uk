@@ -3,10 +3,6 @@ title: New domains
 author: micp
 layout: post
 permalink: /2012/10/new-domains/
-categories:
-  - Blog
-  - Web Design
-  - Web Development
 ---
 # 
 

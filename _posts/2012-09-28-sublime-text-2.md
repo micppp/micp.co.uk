@@ -3,16 +3,6 @@ title: Sublime Text 2
 author: micp
 layout: post
 permalink: /2012/09/sublime-text-2/
-categories:
-  - Web Design
-  - Web Development
-tags:
-  - aptana
-  - coda
-  - editor
-  - phpedit
-  - sublime text
-  - ui
 ---
 # 
 

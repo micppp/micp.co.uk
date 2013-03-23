@@ -3,13 +3,6 @@ title: Goodbye, thank you and the next chapter
 author: micp
 layout: post
 permalink: /2012/09/goodbye-thank-you-and-the-next-chapter/
-categories:
-  - Blog
-tags:
-  - incase
-  - incase backpack
-  - teesside university
-  - visualsoft
 ---
 # 
 
