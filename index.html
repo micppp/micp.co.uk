@@ -18,7 +18,7 @@ title: Michael Pallister | Web Developer
 	    <p class="post-content">
 	    	{{ post.content | truncatewords:75 }}
 	    </p>
-	    { if post.content | length >= 75 }
+	    {% if post.content | length >= 75 %}
 	    <a class="btn btn-post" href="{{ post.url }}">View more &rsaquo;</a>
 	    {% endif %}
 	</article>
