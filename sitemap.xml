@@ -5,7 +5,7 @@ layout: nil
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <!-- Posts -->{% for post in site.posts %}
-  <url><loc>http://micp.co.uk.me{{ post.url }}</loc></url>
+  <url><loc>http://micp.co.uk{{ post.url }}</loc></url>
   {% endfor %}
   
 </urlset>
