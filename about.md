@@ -22,4 +22,6 @@ I’ve worked on all kinds of projects ranging from small sites with a few pages
 	<li class="page-list-item">Adobe Photoshop</li>
 </ul>
 
-I also have experience of working in a team, managing my own projects and my own workload whilst working towards tight deadlines. 
+I also have experience of working in a team, managing my own projects and my own workload whilst working towards tight deadlines.
+
+I am always looking for freelance work so if you're looking for a front end developer or have something you'd be interested in speaking to me about then please get in touch - [michael@micp.co.uk](michael@micp.co.uk)
