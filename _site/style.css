@@ -49,8 +49,8 @@ a, a:active {color:#2b2b2b; text-decoration: none;}
 .nav {width:100%;}
 .nav-list {margin:0; padding:0; display:none;}
 .nav-item {width:100%; float:none; font-size:0.85em; line-height:2.5em;}
-.nav-mobile {display:block; cursor:pointer; position:absolute; top:0.75em; right:1em; background:#63bab0 url(../img/nav.svg) no-repeat center center; height:40px; width:40px;}
-.nav-active {display:block; margin:1em 0 0 0;}
+.nav-mobile {display:block; cursor:pointer; position:absolute; top:0; right:0; background:#63bab0 url(../img/nav.svg) no-repeat center center; height:4em; width:4em;}
+.nav-active {display:block; margin:1em 0 0 0; background:#63BAB0;}
 .nav-item a {display:block; padding:0 0.75em 0 0.75em; text-align:center;}
 a:hover, .pagination-active:hover {background:#63bab0; color:#fff;}
 .nav-item-twitter a:hover {background:#2B4964;}
