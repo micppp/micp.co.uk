@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <!-- Posts -->
+  <url><loc>http://micp.co.uk/2013/03/23/old-vs-new</loc></url>
+  
   <url><loc>http://micp.co.uk/2013/03/22/moving-to-jekyll</loc></url>
   
   <url><loc>http://micp.co.uk/2012/11/apple-tv-jailbreak/</loc></url>

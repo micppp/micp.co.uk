@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Old vs New</title>
+        <link rel="dns-prefetch" href="//www.google-analytics.com">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Front-end development articles and information. HTML, CSS, Javascript, jQuery and some PHP.">
+		<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+        <link href="/style.css" rel="stylesheet">
+
+		<!--[if lte IE 8]>
+			<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"></script>
+            <script src="/js/css3-mediaqueries.min.js"></script>
+		<![endif]-->
+    </head>
+    <body>
+
+        <header class="sidebar">
+            <div class="logo"><a href="/" title="Michael Pallister">Michael Pallister</a> <span class="logo-sub">Web Developer</span></div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item nav-item-home"><a href="/">Home</a></li>
+                    <li class="nav-item nav-item-about"><a href="/about">About</a></li>
+                    <li class="nav-item nav-item-contact"><a href="/contact">Contact</a></li>
+                    <li class="nav-item nav-item-twitter"><a href="https://twitter.com/micppp" target="_blank">Twitter</a></li>
+                    <li class="nav-item nav-item-linkedin"><a href="http://www.linkedin.com/in/micpuk" target="_blank">LinkedIn</a></li>
+                    <li class="nav-item nav-item-rss"><a href="http://feeds.feedburner.com/michaelpallister" target="_blank">RSS</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="content">
+        <article class="page-article">
+	<h1 class="page-title">Old vs New</h1>
+	<p class="page-date">March 23, 2013</p>
+	<p>It may be just me but as soon as I see a website I like the look of I open firebug and hit refresh.</p>
+
+<p>First I look at how many requests it's making, followed by the page size, page load time and it's Google page speed rank. I understand some sites are larger than others but there's nothing I can't stand more than waiting for a page to load.</p>
+
+<p>Because of this I wanted to compare my old site to the new one and you can see the results in the table below:</p>
+
+<table cellspacing="0" cellpadding="0" border="0" class="post-table">
+    <tr>
+        <td class="post-table-column"></td>
+        <td class="post-table-column">Old</td>
+        <td class="post-table-column">New</td>
+    </tr>
+    <tr>
+        <td class="post-table-row-alt">Page requests</td>
+        <td class="post-table-row-alt">21</td>
+        <td class="post-table-row-alt">10</td>
+    </tr>
+    <tr>
+        <td class="post-table-row">Page size</td>
+        <td class="post-table-row">300KB</td>
+        <td class="post-table-row">79.2KB</td>
+    </tr>
+    <tr>
+        <td class="post-table-row-alt">Page load time</td>
+        <td class="post-table-row-alt">5.43s</td>
+        <td class="post-table-row-alt">0.81s</td>
+    </tr>
+</table>
+
+
+<h3>Conclusion</h3>
+
+<p>As you can see from the results above there is a massive difference. Both sites were extremely text heavy but there's a few differences between the two. I am no longer using images on the homepage under each post title and the new site isn't loading in my Instragram pictures or trakt.tv stats. Whilst I do plan to add both of these to this site I also plan to re-write the code I was using for both to ensure that the site loading time stays extremely quick.</p>
+
+<p>I've still got a few things like adding expiry headers but due to github not liking htaccess files I'm going to have to look at doing this another way but for the minute I'm happy with a page loading time that is under a second!</p>
+
+</acticle>
+        </section>
+
+        <script src="/js/scripts.js"></script>
+        <script>
+            // Google Analytics
+            var _gaq=[['_setAccount','UA-27220940-1'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)})(document,'script');
+        </script>
+    </body>
+</html>
