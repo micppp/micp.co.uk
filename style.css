@@ -93,7 +93,10 @@ a:hover, .pagination-active:hover {background:#63bab0; color:#fff;}
 	.nav-list {display:block;}
 	.nav-item {display:block; line-height:3em; padding:0;}
 	.nav-item a {color:#2b2b2b;}	
-	.nav-item a:hover {background:#63bab0; color:#fff;;}
+	.nav-item a:hover {background:#63bab0; color:#fff;}
+	.nav-item-twitter a:hover {background:#2B4964;}
+.nav-item-linkedin a:hover {background:#4875B4;}
+.nav-item-rss a:hover {background:#FF6600;}
 	.nav-mobile {display:none;}
 }
 
