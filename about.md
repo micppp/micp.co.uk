@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-I am Michael Pallister. I’m 26 years old and I am a Web Developer from Middlesbrough. I enjoy building websites and my passion is in front end development although I've got a quickly improving skillset when it comes to back-end development too.
+I am Michael Pallister. I’m 27 years old and I am a Web Developer from Middlesbrough. I enjoy building websites and my passion is in front end development although I've got a quickly improving skillset when it comes to back-end development too.
 
 I have been building websites and messing around with the web ever since I got a computer in my teens. I always knew from a young age that as I got older I would end up doing something that involved me using a computer on a daily basis.
 
