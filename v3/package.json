@@ -1,0 +1,39 @@
+{
+  "name": "michael-pallister",
+  "version": "3.0.0",
+  "description": "My personal blog",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "@micppp"
+  },
+  "keywords": [
+    "blog",
+    "web",
+    "development",
+    "front",
+    "end",
+    "web",
+    "developer",
+    "css",
+    "html",
+    "javascript",
+    "php",
+    "reactjs",
+    "angularjs",
+    "vuejs"
+  ],
+  "author": "Michael Pallister",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-util": "^3.0.8"
+  }
+}

@@ -1,0 +1,99 @@
+@import 'reset';
+
+$primary-color:#000;
+$secondary-color:#fff;
+$primary-spacing:1rem;
+$secondary-spacing:$primary-spacing / 2;
+
+.site-wrapper {
+	margin:$primary-spacing;
+}
+
+.site-logo {
+	border:5px solid #000;
+	display:inline-block;
+	font-family:'Fjalla One', sans-serif;
+	font-size:48px;
+	margin:0;
+	padding:10px;
+	text-transform:uppercase;
+}
+
+.site-content {
+	display:flex;
+
+	> div {
+		flex:1 0 calc(50% - 64px);
+		height:calc(100vh - 32px);
+	}
+
+	.site-content__main-article {
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size:cover;
+		height:calc(100vh - 32px);
+	}
+
+	.site-content__articles {
+		padding:0 $primary-spacing * 2;
+
+			.article {
+				margin-bottom:32px;
+			}
+
+			.article__title {
+				border-bottom:1px dotted #000;
+				display:inline-block;
+				font-family:'Istok Web', serif;
+				font-size:32px;
+				font-weight:700;
+				margin-bottom:10px;
+				padding-bottom:7px;
+			}
+
+			.article__title a {
+				color:#000;
+				text-decoration:none;
+			}
+
+			.article__title a:hover {
+				background-color:#3e3e3e;
+				color:#fff;
+			}
+
+			.article__text,
+			.article__date {
+				font-family:'Fauna One', serif;
+				font-size:12px;
+				line-height:22px;
+			}
+
+			.article__date {
+				margin-bottom:8px;
+			}
+	}
+}
+
+@media only screen and (min-width:768px) {
+	.site-logo {
+		left:32px;
+		position:absolute;
+		top:32px;
+	}
+}
+
+@media only screen and (min-width:1025px) {
+	.site-wrapper {
+		overflow:hidden;
+	}
+
+	.site-logo {
+		border-width:7px;
+		font-size:72px;
+		padding:15px 20px;
+	}
+
+	.site-content__articles {
+		overflow:scroll;
+	}
+}
