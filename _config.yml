@@ -1,5 +1,4 @@
 auto: true
-markdown: rdiscount
 pygments: true
 url: http://micp.co.uk
 paginate: 5 # the number of post per page
