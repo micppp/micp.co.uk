@@ -1,5 +1,9 @@
-auto: true
-pygments: true
-url: http://micp.co.uk
-paginate: 5 # the number of post per page
-permalink: /:year/:month/:day/:title
+description: The personal blog of Michael Pallister. A place to find articles about Front end development. HTML, CSS and Javascript
+
+markdown: kramdown
+
+highlighter: rouge
+
+host: 0.0.0.0
+
+exclude: [package.json, node_modules]

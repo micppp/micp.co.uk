@@ -1,40 +1,22 @@
 ---
 layout: default
-title: Michael Pallister | Web Developer
+title: micp.co.uk | The personal blog of Front End Developer Michael Pallister 
 ---
-
-{% for post in paginator.posts %}
-	<article class="article">
-	    <header class="article-header">
-	    	<h2 class="post-title">
-	    		<a href="{{ post.url }}">
-	    			{{ post.title }}
-	    		</a>
-	    	</h2>
-		    <div class="post-date">
-		    	{{ post.date | date: "%B %e, %Y" }}
-		    </div>
-	    </header>
-	    <p class="post-content">
-	    	{{ post.content | truncatewords:75 }}
+<div class="container site-content__articles">
+	{% for post in site.posts %}
+		<article class="article">
+			<div class="article__date">
+	    	{{ post.date | date: "%B %e, %Y" }}
+	    </div>
+	  	<h2 class="article__title">
+  			<a href="{{ post.url }}">
+  				{{ post.title }} 
+  			</a>
+		  </h2>
+	    <p class="article__text">
+		  	{{ post.content | markdownify | strip_html | truncatewords:75 }}
 	    </p>
-	    <a class="btn btn-post" href="{{ post.url }}">View more &rsaquo;</a>
-	</article>
-{% endfor %}
-
-<div class="pagination">
-	{% if paginator.previous_page %}
-		{% if paginator.previous_page == 1 %}
-			<a href="/" class="pagination-previous pagination-active">Previous</a> | 
-		{% else %}
-			<a href="/page{{paginator.previous_page}}" class="pagination-previous pagination-active">Previous</a> | 
-		{% endif %}
-	{% else %}
-		<span class="pagination-previous">Previous</span> | 
-	{% endif %}
-	{% if paginator.next_page %}
-		<a href="/page{{paginator.next_page}}" class="pagination-next pagination-active">Next</a>
-	{% else %}
-		<span class="pagination-next">Next</span>
-	{% endif %}
+		</article>
+	{% endfor %}
 </div>
+
