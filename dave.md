@@ -1,3 +1,8 @@
+---
+layout: page
+title: Dave
+---
+
 # Instructions
 
 Sign up here: https://www.ipvanish.com/
